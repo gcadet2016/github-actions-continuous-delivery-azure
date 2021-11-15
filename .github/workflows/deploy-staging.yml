@@ -1,8 +1,7 @@
 name: Stage the app
 
 on: 
-  pull_request:
-    types: [labeled]
+  pull_request
 
 env:
   DOCKER_IMAGE_NAME: gcadet2016-azure-ttt
